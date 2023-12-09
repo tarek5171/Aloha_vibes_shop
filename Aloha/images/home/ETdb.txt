@@ -1,0 +1,44 @@
+Users table:
+User ID 
+Username VARCHAR2(30 char)
+Email VARCHAR2(30 char)
+Mobile INT
+Password 
+Address ID
+
+Orders Table:
+User ID
+Order ID
+Item ID LISTAGG
+Address ID
+Total Price 
+
+Items Table:
+Item ID
+Item Name
+Item Desc
+Item Price
+
+
+Addresses Table:
+Address ID
+User ID
+Address Name
+
+Promo Codes Table:
+Promocodes ID
+Percentage
+
+Messages Table:
+Message ID
+Content
+
+Articles Table:
+Article ID
+Article Title
+Article Content
+
+Reservations Table:
+Reservation ID
+User ID
+Date 
